@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #222;
+  color: #eee;
+  font-family: "Righteous", cursive;
+  text-transform: capitalize;
+  line-height: 1.5;
+  letter-spacing: 5px;
+}
+.header {
+  height: 35vh;
+  margin-top: 2rem;
+}
+.header-center {
+  width: 90vw;
+  height: 35vh;
+  margin: 0 auto;
+  position: relative;
+  border: 5px dashed #eee;
+}
+
+.between {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+.again {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 2rem;
+}
+.secret-number {
+  background: #eee;
+  color: #222;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  font-size: 2rem;
+  position: absolute;
+  top: 98%;
+  left: 50%;
+  transform: translate(-49%, -50%);
+}
+.main {
+  width: 90vw;
+  height: calc(65vh - 12rem);
+  margin: 5rem auto;
+  border: 5px dashed #eee;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.left {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.right {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  max-width: 20em;
+}
+.btn {
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: #eee;
+  background: transparent;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border: 2px solid #eee;
+  transition: all 300ms linear;
+  letter-spacing: 5px;
+  font-family: "Righteous", cursive;
+}
+.btn:hover {
+  background: #eee;
+  color: #222;
+}
+.guess {
+  display: block;
+  background: transparent;
+  width: 7rem;
+  height: 4rem;
+  padding: 1rem 0;
+  border-radius: 10px;
+  border: 2px solid #eee;
+  font-size: 1.15rem;
+  color: #eee;
+  cursor: pointer;
+  text-align: center;
+}
